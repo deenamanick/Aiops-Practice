@@ -1,0 +1,6 @@
+service,issue,steps
+checkout-service,High 5xx errors,"1) Check recent deploys 2) Inspect DB connections 3) Scale replicas 4) Rollback if needed"
+payment-service,Timeouts to gateway,"1) Verify provider status 2) Enable retries/backoff 3) Activate circuit breaker 4) Fallback to queued processing"
+auth-service,JWT failures,"1) Check NTP sync 2) Compare clock skew 3) Increase JWT leeway 4) Rotate credentials if needed"
+gateway,High latency,"1) Verify upstreams 2) Inspect rate limiter 3) Increase resources 4) Enable autoscaling"
+catalog-service,OOMKilled,"1) Inspect memory profiles 2) Patch offending lib 3) Increase memory limits 4) Add liveness probe"

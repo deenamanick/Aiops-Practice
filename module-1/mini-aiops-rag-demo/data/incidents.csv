@@ -1,0 +1,6 @@
+incident_id,service,alert,root_cause,resolution,severity
+1001,checkout-service,High 5xx errors after deploy,DB connection pool exhaustion,Increase pool size and fix ORM leak,SEV2
+1002,payment-service,Timeouts to external gateway,External provider latency spike,Implement retries and circuit breaker,SEV2
+1003,auth-service,JWT validation failures,Clock skew on one node,Sync NTP and add leeway,SEV3
+1004,gateway,Elevated latency during traffic spike,Rate limiter misconfiguration,Tune limiter and add autoscaling,SEV2
+1005,catalog-service,Frequent OOMKilled,Memory leak in image processing,Patch library and raise memory limit,SEV1

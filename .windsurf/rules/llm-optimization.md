@@ -1,0 +1,1 @@
+/home/deena/.windsurf/global-rules/llm-optimization.md
