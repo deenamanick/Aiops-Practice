@@ -26,6 +26,11 @@ Comprehensive hands-on labs for learning AIOps concepts, from basic retrieval-au
 - **Monitoring:** Performance, reliability, and resource visibility.
 - **Scaling & Security:** Autoscaling patterns and secure configuration.
 
+### [Module 5: Anomaly Detection (Isolation Forest)](./module-5-anomaly-detection/README.md)
+- **Machine Learning for AIOps:** Moving from static thresholds to dynamic, unsupervised learning.
+- **Multi-Dimensional Telemetry:** Using Scikit-Learn to train an Isolation Forest on compute/network data.
+- **Visualization:** Plotting multi-dimensional anomaly isolation with Matplotlib.
+
 After completing Module 2, continue with the capstone repository: `AIOps-recommender/`.
 
 ## Capstone bridge
